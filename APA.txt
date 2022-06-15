@@ -1,0 +1,59 @@
+SISTEM PEMANTAUAN LOKASI DAN JUMLAH PENUMPANG PADA
+BUS LINTAS USU DENGAN YOLO V3 ALGORITHM SECARA
+REAL TIME MENGGUNAKAN RASPBERRY PI
+
+To DO
+
+1. Cari Raspberry ( Pinjam Kampus )
+2. Data test orang naik Linus
+
+
+Pertanyaan
+
+Dosen :
+- Perangkat Raspberry ,Kamera, Module GPS  yang sesuai ( pinjaman ada gk, kalo gk beli dimana yang murah )
+  Jawab : Raspberry Ada tapi harus di pake di kampus, gps gk ada
+- Untuk Output ke pengguna lebih baik berbasis web atau aplikasi android ?
+  Jawab : Web ( Pak Seniman )
+- Versi MobileNet ditulis dijudul ?
+
+
+Supir : 
+- Memastikan jadwal operasi Linus setiap hari
+  Senin - Jumat Pukul 08.00-17.00, Sabtu pukul 08.00-13.00
+  
+
+- Selama masa pandemi apakah linus beroperasi ? jika ada apakah ada pengurangan ? jika ada pengurangan berapa ?
+- Kapan Linus Balik Normal ?
+- Jumlah bus yang beroperasi setiap hari
+
+- Jumlah bus yang dimiliki kampus
+- Kenapa segitu tidak semua ?
+- Kalau berbeda biasanya menentukan dengan apa (Fungsi 4 deteksi orang)
+  
+
+- Kapasitas Tempat duduk
+- Kapasitas maksimal bus sampe gk boleh naik lagi 
+- Biasanya nentukan penuh pake apa
+- Apakah jika ada sistem yang membantu menghitung penumpang akan membantu ? (fungsi 3 deteksi orang )
+- Daftar pemberhentian dan gambar trayek (untuk Landasan Teori)
+
+Akademisi:
+
+
+Hardware:
+- GPS : Neo 6M Module
+- Database : Firebase
+- Raspberry Pi 4 b (4 gb) 
+- Kamera ???
+
+Fungsi Deteksi Lokasi
+1. Penumpang bisa mengetahui ada tidak nya bus yang beroperasi saat itu. 
+2. Penumpang bisa melihat daftar pemberhentian dari bus. 
+3. Penumpang terhindar dari ketinggalan bus
+
+Fungsi Deteksi Jumlah Penumpang
+1. Penumpang bisa menghindari bus penuh di jam sibuk. 
+2. Penumpang bisa mengetahui ada tidaknya ruang kosong sebelum menaiki bus.
+3. Supir bisa lebih mudah memantau jumlah penumpang, untuk menghindari overload. 
+4. Jumlah harian pengguna LINUS dapat dijadikan acuan pengelola dalam menentukan jumlah bus yang dikerahkan
